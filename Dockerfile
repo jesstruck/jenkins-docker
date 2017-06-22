@@ -10,7 +10,8 @@ RUN /usr/local/bin/install-plugins.sh \
   greenballs:1.15 \
   tasks:4.51 \
   jobConfigHistory:2.16 \
-  slack:2.2
+  slack:2.2 \
+  blueocean:1.1.2
 
 
 
