@@ -13,5 +13,5 @@ RUN /usr/local/bin/install-plugins.sh \
 
 
 
-# add to java start parameters
+# To avoid jenkins to run setup wizard
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
