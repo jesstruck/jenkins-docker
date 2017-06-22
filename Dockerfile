@@ -9,7 +9,8 @@ RUN /usr/local/bin/install-plugins.sh \
   saferestart:0.3 \
   greenballs:1.15 \
   tasks:4.51 \
-  jobConfigHistory:2.16
+  jobConfigHistory:2.16 \
+  slack:2.2
 
 
 
