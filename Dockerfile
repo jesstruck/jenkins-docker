@@ -13,7 +13,8 @@ RUN /usr/local/bin/install-plugins.sh \
   slack:2.2 \
   blueocean:1.1.2
 
-
-
 # To avoid jenkins to run setup wizard
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
+
+# Job Seeding
+COPY jobs.groovy /usr/share/jenkins/ref/init.groovy.d/jobs.groovy
