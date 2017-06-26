@@ -1,13 +1,1 @@
-import Jenkins.model.*
-
-pipelineJob("Hello World"){
-  logRotator{
-  numToKeep 14
-  }
-  definition{
-    cps{
-      sandbox()
-      
-    }
-  }
-}
+import jobs.my-app-pipeline
