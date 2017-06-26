@@ -17,7 +17,6 @@ RUN /usr/local/bin/install-plugins.sh \
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
 # Environment setup
-#COPY conf/ /usr/share/jenkins/ref/init.groovy.d/conf/
 COPY conf.groovy  /usr/share/jenkins/ref/init.groovy.d/conf.groovy
 
 
