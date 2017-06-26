@@ -16,5 +16,11 @@ RUN /usr/local/bin/install-plugins.sh \
 # To avoid jenkins to run setup wizard
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
+# Environment setup
+#COPY conf/ /usr/share/jenkins/ref/init.groovy.d/conf/
+COPY conf.groovy  /usr/share/jenkins/ref/init.groovy.d/conf.groovy
+
+
+
 # Job Seeding
-COPY jobs.groovy /usr/share/jenkins/ref/init.groovy.d/jobs.groovy
+#COPY jobs.groovy /usr/share/jenkins/ref/init.groovy.d/jobs.groovy

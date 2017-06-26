@@ -10,3 +10,8 @@ docker rmi $(docker images -a -q)
 
 # Building
 docker build -t jes/jenkins:0.1 .
+
+
+# Running
+
+docker run -it -p 80:8080 jes/jenkins:0.1 
