@@ -22,4 +22,4 @@ COPY conf.groovy  /usr/share/jenkins/ref/init.groovy.d/conf.groovy
 
 
 # Job Seeding
-#COPY jobs.groovy /usr/share/jenkins/ref/init.groovy.d/jobs.groovy
+COPY jobs.groovy /usr/share/jenkins/ref/init.groovy.d/jobs.groovy
