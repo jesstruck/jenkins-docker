@@ -49,7 +49,7 @@ create conf/ldap.groovy with the following content
     import jenkins.model.*
     import hudson.security.*
     import org.jenkinsci.plugins.*
-
+s
     String server = 'ldap://1.2.3.4'
     String rootDN = 'dc=foo,dc=com'
     String userSearchBase = 'cn=users,cn=accounts'
