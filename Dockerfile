@@ -11,15 +11,14 @@ RUN /usr/local/bin/install-plugins.sh \
   tasks:4.51 \
   jobConfigHistory:2.16 \
   slack:2.2 \
-  blueocean:1.1.2
+  blueocean:1.1.2 \
+  openJDK-native-plugin:1.1
 
 # To avoid jenkins to run setup wizard
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
 
 # Environment setup
-COPY conf.groovy  /usr/share/jenkins/ref/init.groovy.d/conf.groovy
-
-
+COPY conf  /usr/share/jenkins/ref/init.groovy.d
 
 # Job Seeding
-COPY jobs.groovy /usr/share/jenkins/ref/init.groovy.d/jobs.groovy
+COPY jobs /usr/share/jenkins/ref/init.groovy.d

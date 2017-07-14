@@ -84,4 +84,31 @@ create conf/slack.groovy
     slack.save()
     println 'Slack configured!'
 
+### installing Tools
+ * Maven
+ * Java
+    found jenkins openjdk installer, but this only supports Red-Hat distro, and apparently
+
+        println('''#############################
+        #                           #
+        # Configuring the Java      #
+        #                           #
+        #############################
+        ''')
+        def descriptor = new JDK.DescriptorImpl()
+        if (descriptor.getInstallations()) {
+            println 'skip jdk installations'
+        } else {
+            println 'add jdk8'
+            Jenkins.instance.updateCenter.getById('default').updateDirectlyNow(true)
+            def openJDKInstaller = new OpenJDKInstaller(OpenJDKPackage.openJDK8)
+            def jdk = new JDK("openjdk8", null, [new InstallSourceProperty([openJDKInstaller])])
+            descriptor.setInstallations(jdk)
+        }
+
+Cannot be run before atleast on job has been created???
+
+
 ## Configuring Jenkins Pipeline jobs
+
+
