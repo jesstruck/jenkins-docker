@@ -1,0 +1,2 @@
+script:
+  - docker build -t jes/jenkins:0.1 . 
