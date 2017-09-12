@@ -1,5 +1,3 @@
-# Build Status 
-
 [![Build Status](https://travis-ci.org/jesstruck/jenkins-docker.svg?branch=master)](https://travis-ci.org/jesstruck/jenkins-docker)
 
 
