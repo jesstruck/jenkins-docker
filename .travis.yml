@@ -1,3 +1,6 @@
 language: groovy
 script:
-  - docker build -t jes/jenkins:0.1 . 
+  - docker build -t jesstruck/jenkinsDEMO:0.1 . 
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push jesstruck/jenkinsDEMO;
+  
