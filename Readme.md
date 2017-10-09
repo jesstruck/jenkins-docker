@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/jesstruck/jenkins-docker.svg?branch=master)](https://travis-ci.org/jesstruck/jenkins-docker)
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/jesstruck/jenkins-docker.svg?columns=inbox,'in progress',review&style=flat)](http://waffle.io/jesstruck/jenkins-docker)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/jesstruck/jenkins-docker.svg?columns=inbox,"in progress",review&style=flat)](http://waffle.io/jesstruck/jenkins-docker)
 
 
 # Commands
