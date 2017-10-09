@@ -1,4 +1,4 @@
-FROM jenkins:2.60.2-alpine
+FROM jenkins:2.60.3-alpine
 MAINTAINER Jes Struck
 
 RUN /usr/local/bin/install-plugins.sh \
