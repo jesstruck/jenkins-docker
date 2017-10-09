@@ -6,6 +6,7 @@
 ![](https://img.shields.io/github/watchers/jesstruck/jenkins-docker.svg)
 ![](https://img.shields.io/github/tag/jesstruck/jenkins-docker.svg)
 ![](https://img.shields.io/github/release/jesstruck/jenkins-docker.svg)
+![](https://img.shields.io/github/issues/jesstruck/jenkins-docker.svg)
 
 
 
