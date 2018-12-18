@@ -106,7 +106,7 @@ class JenkinsConfigure{
 
     def exeuction(){
         instance.setNumExecutors(0)
-        instance.setSlaveAgentPort([55000])
+        instance.setSlaveAgentPort([55000]) // -1 to diable slaves
     }
 
     def securityVulnerabilities(){
@@ -123,9 +123,6 @@ class JenkinsConfigure{
 
         //Agent to master security subsystem
         instance.getInjector().getInstance(AdminWhitelistRule.class).setMasterKillSwitch(false)
-
-        //TODO: consider -> Disable jnlp
-        //jenkins.setSlaveAgentPort(-1)
 
         /** Agent protocols ("Java Web Start Agent Protocol/1", Java Web Start Agent Protocol/2  )
         *   Disable old Non-Encrypted protocols
