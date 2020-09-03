@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/jesstruck/jenkins-docker.svg?branch=master)](https://travis-ci.org/jesstruck/jenkins-docker)
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/jesstruck/jenkins-docker.svg?columns=all)](https://waffle.io/jesstruck/jenkins-docker)
 
 ![](https://img.shields.io/github/stars/jesstruck/jenkins-docker.svg)
 ![](https://img.shields.io/github/forks/jesstruck/jenkins-docker.svg)
