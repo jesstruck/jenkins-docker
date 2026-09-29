@@ -1,4 +1,4 @@
-    FROM jenkins/jenkins:2.95-alpine
+    FROM jenkins/jenkins:2.584-alpine@sha256:a63e3b64f42062709ce7e47887a552e3c7777aabb63612f5d941eda28bb0e400
     MAINTAINER Jes Struck "mail@jesstruck.dk"
 
     #Install plugins
